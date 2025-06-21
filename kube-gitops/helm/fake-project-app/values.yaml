@@ -1,0 +1,21 @@
+replicaCount: 1
+
+image:
+  repository: 216282580084.dkr.ecr.us-east-1.amazonaws.com/nodejs_image_fake_project
+  tag: latest
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 3000
+
+ingress:
+  enabled: true
+  className: nginx
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+  hosts:
+    - host: ""
+      paths:
+        - path: /
+          pathType: Prefix
