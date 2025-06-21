@@ -1,0 +1,22 @@
+# === Kubeconfig files ===
+kubeconfig
+kubeconfig.yaml
+.kube/
+.kube/config
+
+# === kubectl cache and plugin data ===
+~/.kube/cache/
+~/.kube/http-cache/
+~/.kube/plugins/
+
+# === Kustomize build output ===
+kustomization.yaml.bak
+kustomization.yaml.tmp
+*.kustomize.config
+
+# === Helm-related files ===
+*.tgz
+charts/
+Chart.lock
+values.override.yaml
+values.local.yaml
