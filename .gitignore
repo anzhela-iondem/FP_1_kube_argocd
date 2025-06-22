@@ -20,3 +20,4 @@ charts/
 Chart.lock
 values.override.yaml
 values.local.yaml
+*values.yaml
