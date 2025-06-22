@@ -19,5 +19,5 @@ configs:
     disableTelemetry: "true"
 
 admin:
-  # You should set a bcrypt-hashed password or configure SSO
-  password: $2a$12$b4YNr2tXl7PA/2nuu4lO.uU/YHXf45ozTbeKhXDjWZPaLwy5Qf/vi
+  # You should set a bcrypt-hashed password or configure SSO for adminpass
+  password: $2a$12$RcRV5H5X0Hu6RFGJc1odT.0YMBQ/9ATh3D38oKyiZqOyQssMWq.xC  
