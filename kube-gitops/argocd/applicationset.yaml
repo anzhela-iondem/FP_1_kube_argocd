@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
     - git:
-        repoURL: https://github.com/anzhela-iondem/project_1 
+        repoURL: https://github.com/anzhela-iondem/FP_1_kube_argocd
         revision: main
         directories:
           - path: kube-gitops/helm/fake-project-app/*
@@ -16,7 +16,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/anzhela-iondem/project_1 
+        repoURL: https://github.com/anzhela-iondem/FP_1_kube_argocd
         targetRevision: main
         path: kube-gitops/helm/fake-project-app
         helm:
