@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: 216282580084.dkr.ecr.us-east-1.amazonaws.com/nodejs_image_fake_project
-  tag: app-38ed8ec
+  tag: app-0222824
 
 service:
   type: ClusterIP
